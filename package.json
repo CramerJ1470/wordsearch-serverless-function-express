@@ -1,10 +1,25 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
+
+  "author": "SillyNFTier, John Cramer",
+  "repository": "https://github.com/CramerJ1470/wordsearch-serverless-function-express.git",
+  "description": "server side for SillyNFTier wordsearch",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "@types/node": "^17.0.42",
     "@vercel/node": "^2.9.6",
-    "typescript": "^4.7.3"
+    "typescript": "^4.7.3",
+    "bcryptjs": "*",
+		"body-parser": "^1.19.0",
+		"cookie-parser": "^1.4.4",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-validator": "^6.14.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.7.8"
   }
 }
